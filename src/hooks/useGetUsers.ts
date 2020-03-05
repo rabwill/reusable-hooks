@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function fnGetUsers(url){
+function useGetUsers(url){
     const [data, setName] = useState({users:[]});
     useEffect(() => {         
        axios.get(url).then(response=>{
@@ -11,4 +11,4 @@ function fnGetUsers(url){
     }, []);
 return data;    
 }
-export default fnGetUsers;
+export default useGetUsers;
