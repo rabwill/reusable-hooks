@@ -2,7 +2,7 @@ import * as React from 'react';
 import useGetUsers from '../../../hooks/useGetUsers';
 
 const Getusers: React.FunctionComponent<{}> = () => {
-    const usrs = useGetUsers("https://jsonplaceholder.typicode.com/users");
+    const usrs = useGetUsers();
     return (
         <div>
             {usrs.users.map(x =>
