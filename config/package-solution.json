@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-hooks-sample-sol-client-side-solution",
+    "id": "e1b4b1f4-0b2f-41a8-b575-9fc9d5d4fe6a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/react-hooks-sample-sol.sppkg"
+  }
+}
